@@ -1,10 +1,17 @@
 import React from "react";
+import Navbar from "../Components/Navbar/Navbar";
+import CategoryMenu from "../Components/Category/CategoryMenu";
+
+
+import FoodItems from "../Components/FoodItems/FoodItems";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the home route.</p>
+      <Navbar />
+      <CategoryMenu />
+      <FoodItems/>
+      
     </div>
   );
 };
